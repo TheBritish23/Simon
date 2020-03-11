@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Londrina Outline', cursive;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 2px 2px #e1ff00;
+  color: red;
+}
