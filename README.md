@@ -6,7 +6,7 @@
 
 ## Description
 
-_Using Webpack and npm installs_
+_Using Webpack and npm installs and create a game of Simon Says using sequences._
 
 ## Setup/Installation Requirements
 
@@ -14,7 +14,8 @@ _Using Webpack and npm installs_
 * _2. Create local and Remote Repository_
 * _3. Create Atom file_
 * _4. Make supporting HTML, JS, and CSS files_
-* _5. Download Git_
+* _5. Download all NPM installs and Webpacks_
+* _6. Download Git_
 
 ## Known Bugs
 
