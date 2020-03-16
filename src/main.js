@@ -6,3 +6,5 @@ $(document).ready(function() {
     event.preventDefault();
     var action = $('#action').val();
     var output = Simon(goal);
+      output.forEach(function(element) {
+        $('#solution').append("<li>" + element + "</li>");
