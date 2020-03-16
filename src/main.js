@@ -4,10 +4,13 @@ import './styles.css';
 $(document).ready(function() {
   $('#Simon-form').submit(function(event) {
     event.preventDefault();
-    var action = $('#action').val();
-    var output = Simon(goal);
-      output.forEach(function(element) {
-        $('#instruction').append("<li>" + element + "</li>");
-      });
-    });
-  });
+var say;
+
+function myFunction() {
+  say = setInterval(alertFunc, 3000);
+}
+
+function alertFunc() {
+  alert("DO DIS!");
+}
+  };
