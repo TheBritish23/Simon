@@ -7,4 +7,7 @@ $(document).ready(function() {
     var action = $('#action').val();
     var output = Simon(goal);
       output.forEach(function(element) {
-        $('#solution').append("<li>" + element + "</li>");
+        $('#instruction').append("<li>" + element + "</li>");
+      });
+    });
+  });
